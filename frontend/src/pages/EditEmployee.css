@@ -1,0 +1,36 @@
+/* EditEmployee — imports shared form styles from AddEmployee.css */
+@import './AddEmployee.css';
+
+/* --- Fetch Error State --- */
+.fetch-error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 64px 24px;
+  text-align: center;
+}
+
+.fetch-error-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(244, 63, 94, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-rose);
+}
+
+.fetch-error-container h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.fetch-error-container p {
+  font-size: 14px;
+  color: var(--text-muted);
+  max-width: 380px;
+}

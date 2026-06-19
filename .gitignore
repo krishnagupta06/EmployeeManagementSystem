@@ -1,0 +1,32 @@
+# ─── Java / Maven ───
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+
+# ─── Node / Frontend ───
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ─── IDE ───
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── OS ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Env ───
+.env
+.env.local
+*.log
